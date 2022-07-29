@@ -1,0 +1,11 @@
+server:
+  port: 8002
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    druid:
+      url: jdbc:mysql://localhost:32306/memory?serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: 123456
